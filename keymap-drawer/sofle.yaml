@@ -3,7 +3,6 @@ layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', TAB, Q, W, E, R, T, Y, U, I, O, P, '[', LSHFT, A, S, D, F, G, H, J, K, L, ;, '''', LEFT CONTROL,
     Z, X, C, V, B, MUTE, MUTE, N, M, ',', ., /, ']', LEFT CONTROL, LWIN, LALT, lower, ENTER, BACKSPACE, SPACE, LEFT ALT, '-', '=']
   lower:
-  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -15,7 +14,8 @@ layers:
   - F9
   - F10
   - F11
-  - '`'
+  - F12
+  - {t: ▽, type: trans}
   - '1'
   - UP
   - '3'
@@ -31,8 +31,8 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - $
-  - '%'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - RGB BRI
   - RGB BRD
   - RGB SPI
@@ -40,18 +40,18 @@ layers:
   - RGB EFF
   - RGB EFR
   - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - KP PLUS
-  - '{'
-  - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - ;
-  - ':'
-  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
