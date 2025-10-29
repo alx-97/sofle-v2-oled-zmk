@@ -1,6 +1,6 @@
-layout: {qmk_keyboard: sofle/rev1}
+layout: {zmk_keyboard: sofle}
 layers:
-  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', TAB, Q, W, E, R, T, Y, U, I, O, P, '[', LSHFT, A, S, D, F, G, H, J, K, L, ;, '''', LEFT CONTROL,
+  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', F12, Q, W, E, R, T, Y, U, I, O, P, '[', LSHFT, A, S, D, F, G, H, J, K, L, ;, '''', LEFT CONTROL,
     Z, X, C, V, B, MUTE, MUTE, N, M, ',', ., /, ']', LEFT CONTROL, LWIN, LALT, lower, ENTER, BACKSPACE, SPACE, LEFT ALT, '-', '=']
   lower:
   - F1
