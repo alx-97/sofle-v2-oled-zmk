@@ -48,7 +48,9 @@
                           &kp LEFT_CONTROL  &kp LWIN  &kp LALT  &mo 1   &kp ENTER     &kp BACKSPACE  &kp SPACE  &kp LEFT_ALT  &kp MINUS  &kp EQUAL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_BRI_UP C_BRI_DEC>,
+                <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
         };
 
         lower_layer {
